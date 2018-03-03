@@ -2,8 +2,6 @@
     require 'src/SelectController.php'; 
     $appar = new SelectController();
     $result =$appar->getFirstSelect();
-    //$urlOrg = "http://localhost:88/SelectAjax/list.php?type=organisation&filter=$id";
-    //$urlPer = "http://localhost:88/SelectAjax/list.php?type=personnages&filter=$id";
 ?>
 <!DOCTYPE html>
 <html lang="fr">
